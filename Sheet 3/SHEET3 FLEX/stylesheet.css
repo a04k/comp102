@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Abril Fatface Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Abril Fatface Regular'), url('/Fonts/AbrilFatface-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Unity Sans Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Unity Sans Regular'), url('/Fonts/Unity-Sans-Regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Unity Sans Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Unity Sans Medium'), url('/Fonts/Unity-Sans-Medium.woff2') format('woff2');
+}
+
+*{
+    box-sizing: border-box;
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+h1{
+    cursor: pointer;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    padding-left: 6%;
+    width: fit-content;
+    color:rgb(52, 236, 208);
+    font-family: 'Unity Sans Medium';
+    font-size: 69px;
+}
+h1:hover{
+    color:red;
+    transition: 0.4s;
+}
+
+.pcdef{
+    font-size:30px;
+    padding-bottom: 45px;
+    padding-left: 6%;
+
+}
+
+p{
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 30px;
+    color:rgb(183, 183, 183);
+    font-size: 23px;
+    font-family: 'Unity Sans Regular';
+    animation:
+            fadeIn 4s;
+} 
+@keyframes fadeIn {
+                0% { opacity: 0; }
+                100% { opacity: 1; }
+        }
+
+a{
+    color: rgb(52, 236, 208);
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    transition: .4s;
+}
+img{
+    padding-top: 69px;
+    height: 300px;
+    width: 700px;
+    opacity: 80%;
+    display: block;
+    margin: auto;
+    animation:
+            fadeIn 5s;
+}
