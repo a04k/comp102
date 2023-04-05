@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sheet 5</title>
+        <style>
+            body{
+                margin:0;
+            }
+            .header table{
+                background-color: #2554C7;
+                width: 100%;
+                text-align: center;
+                color:#8EEBEC;
+                font-size: 35px;
+            }
+            .header table img{
+                height: 55px;
+                width: 55px;
+            }
+            .hero img{
+                width: 100%;
+                height: 200px;
+                margin: 0;
+            }
+            p{
+                margin: 0;
+                width: 100%;
+                height: 25px;
+                background-color: #4169E1;
+                color: #8EEBEC;
+                text-align: center;
+                text-shadow: 1.2px 1.2px #9CA889;
+                font-size: 120%;
+            }
+            .adContainer img{
+                float: right;
+                width: 10%;
+                height: 420px;
+            }
+            .subjectColumn{
+            float: left;
+            width: 15%;
+            height: 420px;
+            background-color: #488AC7;
+            }
+            .subjectColumn a{
+                font-size: 23px;
+                color: #8EEBEC;
+            }
+            .mainTable table{
+                background-color: #8EEBEC;
+                width: 75%;
+                height: 420px;
+            }
+            .headingsRow th{
+                color:#2554C7;
+                font-size: 28px;
+                padding-right: 180px;
+                text-align: left;
+            }
+            .ccRow{
+                text-align: left;
+            }
+        </style>
+    </head>
+    <body>
+        <!--HEADER-->
+        <div class="header">
+        <table>
+            <tr>
+                <td><img src="/Images/Sci.jpeg" style="padding-left: 100px;"></td>
+                <td><b>Faculty of Scicnce - Ain Shams University</b></td>
+                <td><img src="/Images/asu.jpeg" style="padding-right: 100px;"></td>
+            </tr>
+        </table>
+        </div>
+        <!--Hero Image and text-->
+        <div class="hero">
+            <img src="/Images/qasr.jpeg">  
+            <p><i>Welcome to Faculty of Science – Ain Shams University</i></p>
+        </div>
+
+        <!--Main Div -->
+        <div class="main">
+        <!--LEFT SIDE BAR (did it with div) (i did it with table before it was fine but the text didnt want to be at the top)-->
+        <div class="subjectColumn">
+            <b> <a href="#">Computer Science</a><br><br><a href="#">Statistics</a><br><br><span><a href="#">Physics and Computer Science</a></span><br><br><a href="#">Mathematics</a></b>
+        </div>
+        <div class="adContainer">
+            <img src="Images/ad.jpeg">
+        </div>
+        <!--Main Table-->
+        <div class="mainTable">
+            <table cellpadding="0">
+                <tr class="headingsRow">
+                    <th><b>Computer<br>Science</b></th>
+                    <th><b>Statistics</b></th>
+                    <th><b>Physics & Computer Science</b></th>
+                    <th><b>Mathematics</b></th>
+                </tr>
+                <tr class="ccRow">
+                    <td><b>Course code:</b></td>
+                    <td><b>Course code:</b></td>
+                    <td><b>Course code:</b></td>
+                    <td><b>Course code:</b></td>
+                </tr>
+                <tr class="infoRow">
+                        <td>
+                            <b>
+                            <ol>
+                            <li>COMP 102</li>
+                            <li>COMP 104</li>
+                            <li>COMP 106</li>
+                            </ol>
+                            </b>
+                        </td>
+                        <td > <b>
+                            <ol type="I">
+                            <li>COMP 104</li>
+                            <li>COMP 102</li>
+                                <b>
+                                <ul>
+                                    <li>90 Final Exam</li>
+                                    <li>15 Mid-Term</li>
+                                    <li>7 Attendence</li>
+                                    <li>10 Activities</li>
+                                    <li>20 Final Lab Exam</li>
+                                    <li>8 Oral</li>
+                                    </ul></b>
+                        </ol>
+                        </b></td>
+                        <td><b>
+                        <ol>
+                            <li>COMP 102</li>
+                            <li>COMP 104</li>
+                        </ol>
+                        </b></td>
+                        <td><b>
+                        <ol><li>COMP 108</li></ol></b>
+                        </td>
+                    </tr>
+                    <tr>
+                        
+                        <td> </td>
+                    </tr>
+                </tr>
+            </table>
+        </div>
+        <div style="background-color:#2554C7;float: left;width: 100%;height: 30px; text-align: center;color: #8EEBEC;"">Copyright &copy; 2022 Level 1 Spring Semester Faculty of Science - Ain Shams University</div>
+</div>
+    </body>
+</html>
