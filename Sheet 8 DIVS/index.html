@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-color: #D8BFD8;
+            }
+            .headBar{
+                font-family: cursive;
+                color: #9936FF;
+                align-items: center;
+                justify-content: center;
+                background-color: #D8BFD8;
+                padding-top: 10px;
+                display: flex;
+                text-align: center;
+            }
+            .headBar img{
+                padding-bottom: 20px;
+                width:100px;
+                height: 100px;
+            }
+            h3{
+                font-size: 27px;
+                padding-left: 28%;
+                padding-right: 28%;
+            }
+            #navBar{
+                font-family: cursive;
+                align-items: center;
+                background-color: rgb(147, 112, 219);
+                height: 80px;
+                margin-right: 15%;
+                margin-left: 15%;
+                width: auto;
+                display: flex;
+                gap: 1.7em; 
+                font-size: 25px;
+            }
+            a{
+                text-decoration: none;
+                justify-content:space-between;
+                color: white;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            ul{
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+            ul li ul li {
+                display: none;
+            }
+            ul li:hover ul li {
+                display: block;
+            }
+            .menu li:hover {
+                background-color: #9936FF;
+                border-radius: 5px; 
+            }
+            .menu li {
+                padding: 5px 14px;
+            }
+            .dropdown {
+                background-color:mediumpurple;
+                padding: 1em 0;
+                position: absolute;
+                border-radius: 8px;
+                top: 210px;
+                height:120px;
+            }
+            .dropdown li + li {
+                margin-top: 10px;
+            }
+            .dropdown li {
+                padding: 0.5em 1em;
+                width: 8em;
+                text-align: center;
+            }
+            .iframe{
+                margin-left: 15%;
+            }
+            iframe{
+                border: 0;
+                width: 82%;
+                height: 600px;
+                background-image: url(store.jpg);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="headBar">
+            <img src ="science.jpg">
+            <h3> Sheet 8</h3>
+            <img src="ASU.jpg">
+        </div>
+        <div id="navBar">
+            <a href="#" >Home</a>
+            <a href="#">About</a>
+            <ul class="menu">
+                <li>
+                    <a href="#" class="brand">Brand</a>
+                    <ul class="dropdown">
+                    
+                        <a href="iphone.html" target="iframe"><li>
+                            iPhone
+                        </li></a>
+                
+                    <a href="#"><li>Samsung</li></a>
+                    
+                </ul>
+            </li>
+        </ul>
+            <a href="#">Contact</a>
+        </div>
+        <div class="iframe">
+        <iframe  name="iframe"></iframe>
+        </div>
+    </body>
+</html>
